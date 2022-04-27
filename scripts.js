@@ -28,8 +28,8 @@ console.log(images);
 
 for (let pic of images) {
   pic.addEventListener('click', () => {
-    // pic.setAttribute('src', '/assets/magic-1.gif');
-    pic.src = random_imgs(array_imgs);
+    pic.setAttribute('src', '/assets/magic-1.gif');
+    //pic.src = random_imgs(array_imgs);
   });
 }
 
